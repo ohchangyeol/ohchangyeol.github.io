@@ -4,5 +4,7 @@ body{font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Robo
 .container h2{font-size: 2rem;}
 .container h2 .font-detail{font-weight: 300 !important;}
 .container .item {display: flex;}
-.container .item h3{font-size: 1.4rem; font-weight: 500 !important; margin: 0;}
+.container .item .item-header{  flex: 1 1 30%;}
+.container .item .item-body{  flex: 1 1 70%;}
+.container .item .item-header h3{font-size: 1.4rem; font-weight: 500 !important; margin: 0;}
 .container .item .date{margin: 0;font-size: 0.9rem; color: #878787;}
