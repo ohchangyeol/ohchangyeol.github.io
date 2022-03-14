@@ -1,11 +1,16 @@
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
 body{font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;font-weight: 300; line-height: 1.5; color: #464646;}
+ul {padding-left: 20px;}
+li::marker{color: #378af1;}
 .container {position: relative;width: 100%;height: 100%;max-width: 800px;padding: 60px 16px 0px;margin: 0px auto;}
 .container h2{font-size: 2rem;}
+.container a:visited ,a:link{color:#378af1; font-weight: 400;}
 .container h3,h4{margin: 0;}
+.container .connect-box{display: flex; justify-content: flex-end; gap: 10px;}
 .container h2 .font-detail{font-weight: 300 !important;}
-.container .item {display: flex;}
+.container .item {display: flex; position: relative;}
 .container .item + .item{margin-top: 30px;}
+.container .item + .item::before{content: ""; width: 100%; height:1px; border-top: 1px solid #f1f1f1; position:absolute; top: -15px;}
 .container .item .item-header{  flex: 1 1 30%;}
 .container .item .item-body{  flex: 1 1 70%;}
 .container .item .item-body ul,p{margin: 7px 0 0 0 ;}
@@ -19,3 +24,6 @@ body{font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Robo
 
 footer {margin-bottom: 40px;}
 footer .container p{font-size: 0.8rem; text-align: center;}
+
+.text-blue{color : #378af1}
+.text-limit{width: 160px;}

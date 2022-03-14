@@ -1,0 +1,4 @@
+@media screen and (max-width: 768px) {
+    .container .item {display: flex; position: relative; flex-direction: column;}
+    .text-limit{width: auto;}
+}
